@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device=width, initial=scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        position: relative;
+        background-color: #001646;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      body > p {
+        position: fixed;
+        bottom: 10px;
+        left: 10px;
+      }
+
+      .container {
+        width: 970px;
+        margin: 0 auto;
+        padding: 5px;
+        box-sizing: border-box;
+      }
+
+      header {
+        height: 280px;
+        margin: 5px;
+        overflow: hidden;
+      }
+
+      main {
+        display: flex;
+        color: #fff;
+      }
+
+      main > p {
+        display: flex;
+        align-items: center;
+        font-family: Verdana, sans-serif;
+        font-size: small;
+        background-color: #000;
+        margin: 2px 0;
+        padding: 2px;
+      }
+
+      menu {
+        width: 200px;
+        padding: 5px;
+        margin: 2px;
+        list-style: none;
+        background-color: #000;
+      }
+
+      menu > li {
+        height: 30px;
+        width: 194px;
+        background-image: url(./images/back.jpg);
+        padding: 2px;
+        border: 1px solid black;
+        font-weight: bold;
+        line-height: 30px;
+      }
+
+      footer {
+        background-color: #103898;
+      }
+
+      footer > p {
+        text-align: center;
+        color: #fff;
+        padding: 5px;
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <img src="./images/header.jpg" alt="*" />
+      </header>
+
+      <main>
+        <menu>
+          <li>Главная</li>
+          <li>Новости</li>
+          <li>О компании</li>
+          <li>Продукция</li>
+          <li>Контакты</li>
+        </menu>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias
+          quaerat, culpa architecto quis, excepturi, alias vel ducimus atque
+          sequi sed minima illo quisquam? Amet quo aspernatur, odio est sequi
+          aliquid?
+        </p>
+      </main>
+
+      <footer>
+        <p>&copy; Copyright ME, 2013</p>
+      </footer>
+    </div>
+    <p>
+      Image by
+      <a
+        href="https://pixabay.com/users/ivanovgood-1982503/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2696947"
+        >Alexandr Ivanov</a
+      >
+      from
+      <a
+        href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2696947"
+        >Pixabay</a
+      >
+    </p>
+  </body>
+</html>
